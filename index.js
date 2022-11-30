@@ -28,7 +28,7 @@ app.use(passport.session());
 app.use(
   cors({
     credentials: true,
-    origin: "https://animelove-beta.vercel.app",
+    origin: "https://animelove-beta.vercel.app/",
     methods: "GET,POST,PUT,DELETE",
   })
 );

@@ -40,7 +40,7 @@ route.get(
 route.get(
   "/google/callback",
   passport.authenticate("google", {
-    successRedirect: "https://animelove-beta.vercel.app/",
+    successRedirect: "http://localhost:3000/",
     failureRedirect: "/login/failed",
   })
 );
